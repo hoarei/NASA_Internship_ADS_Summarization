@@ -5,8 +5,14 @@ Summarization model for ADS_search program developed in tandem with NASA HQ and 
 
 The goal of creating this expertise finder is to use the tool to find possible reviewers at underserved and small research insitutions that normally do not particpate in the proposal process. Our hope is that by directly reaching out to subject matter experts at these insitutions, we can divserify the overall pool of applicants to NASA Astrophysics funds in the future. 
 
-This code represents an enhanced version of Expertise Finder 2.0, developed by Mallory Helfenbein (https://github.com/MalloryHelfenbein/NASA_Internship) and Máire Volz (https://github.com/maireav/NASA-Internship).
+This code represents an enhanced version of Expertise Finder v2.0, developed by Mallory Helfenbein (https://github.com/MalloryHelfenbein/NASA_Internship) and Máire Volz (https://github.com/maireav/NASA-Internship). The results of Expertise Finder v2.0 must be used for this code to function properly.
+
+The purpose of enhancing the expertise finder...
 
 The LLM and Pre-trained model used for summarization pursposes https://huggingface.co/pszemraj/led-large-book-summary
 
 Dataset used for training https://huggingface.co/datasets/kmfoda/booksum
+
+**What this code does:**
+
+**What the User Needs:** The user needs to access Expertise Finder v2.0 (https://github.com/MalloryHelfenbein/NASA_Internship) and follow the README files instructions. 
