@@ -18,5 +18,5 @@ Dataset used for training https://huggingface.co/datasets/kmfoda/booksum
 **What the User Needs:** The user needs to access Expertise Finder v2.0 (https://github.com/MalloryHelfenbein/NASA_Internship) and follow the README files instructions. 
 
 There are 2 files needed for this code to run properly that transfer over from Expertise Finder v2.0. 
-Markup: *TextAnalysis.py
-        *stopwords.txt
+- TextAnalysis.py
+- stopwords.txt
