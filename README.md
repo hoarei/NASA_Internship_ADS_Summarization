@@ -22,4 +22,4 @@ Dataset used for training https://huggingface.co/datasets/kmfoda/booksum
 - stopwords.txt: Text file with a list of stop words for language processing, so that common everyday words aren't included in the results of the TextAnalysis functions. Several words were added to this file following the work of Helfenbein et al. 2023, to account for common words appearing in the summarization model results. 
 - ADS_Summarization.ipynb: A notebook that contains the steps and instructions for the summarization process. 
 
-**Warnings, Notes, and Recommendations:** It is recommended that the user processes under 100 papers per summarization run, due to extended runtime and GPU limits. 100 papers would take a user arppoximately 1-2 hours to run fully, depending on GPU capabilities. 
+**Warnings, Notes, and Recommendations:** The code should be run on a GPU runtime, otherwise the runtime will drastically increase, and potentially crash on CPU. It is recommended that the user processes under 100 papers per summarization run, due to extended runtime and GPU limits. 100 papers would take a user arppoximately 1-2 hours to run fully, depending on GPU capabilities. 
