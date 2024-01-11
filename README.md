@@ -9,7 +9,7 @@ This code represents an enhanced version of Expertise Finder v2.0, developed by 
 
 The purpose of enhancing the expertise finder is to reduce the potential of missing vital information regarding authors areas of expertise. By summarizing the entirity of published papers, and combining that information for a given author, the user can develop a more in depth underestanding of their expertise, that may have been missed by reviewing only the abstracts. 
 
-The LLM and Pre-trained model used for summarization pursposes https://huggingface.co/pszemraj/led-large-book-summary
+The LLM and Pre-trained model used for summarization purposes https://huggingface.co/pszemraj/led-large-book-summary
 
 Dataset used for training https://huggingface.co/datasets/kmfoda/booksum
 
