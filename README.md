@@ -18,8 +18,8 @@ Dataset used for training https://huggingface.co/datasets/kmfoda/booksum
 **What the User Needs:** The user needs to access Expertise Finder v2.0 (https://github.com/MalloryHelfenbein/NASA_Internship) and follow the README files instructions. 
 
 **Current Files**
-- TextAnalysis.py
-- stopwords.txt
-- ADS_Summarization.ipynb
+- TextAnalysis.py: Python file with functions that determine top n-grams, bi-grams and tri-grams for each authors publication history. This finds the frequency of the appearance of the words in a given set of text. 
+- stopwords.txt: Text file with a list of stop words for language processing, so that common everyday words aren't included in the results of the TextAnalysis functions. Several words were added to this file following the work of Helfenbein et al. 2023, to account for common words appearing in the summarization model results. 
+- ADS_Summarization.ipynb: A notebook that contains the steps and instructions for the summarization process. 
 
 **Warnings, Notes, and Recommendations:**
