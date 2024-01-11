@@ -21,3 +21,5 @@ Dataset used for training https://huggingface.co/datasets/kmfoda/booksum
 - TextAnalysis.py
 - stopwords.txt
 - ADS_Summarization.ipynb
+
+**Warnings, Notes, and Recommendations:**
