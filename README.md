@@ -13,7 +13,9 @@ The LLM and Pre-trained model used for summarization purposes https://huggingfac
 
 Dataset used for training https://huggingface.co/datasets/kmfoda/booksum
 
-**What this code does:** The main function of this code is to summarize arXiv published papers via the results of Expertise Finder v2.0. From there, the final dataframe includes the original n-grams, bi-grams and tri-grams associated with the abstracts, along with the concated summaries, and the summary n-grams, bi-grams and tri-grams. The program accesses arXiv, and huggingface where a pre-trained model is pulled from. The huggingface model is currently open-source and does not require a huggingface API token. The user is able to run this code to develop a deeper understanding of authors areas of expertise for the purpose of reviewing grant and funding proposals. 
+**What this code does:** The main function of this code is to summarize arXiv published papers via the results of Expertise Finder v2.0. From there, the final dataframe includes the original n-grams, bi-grams and tri-grams associated with the abstracts, along with the concated summaries, and the summary n-grams, bi-grams and tri-grams. The program accesses arXiv, and huggingface where a pre-trained model is pulled from. The huggingface model is currently open-source and does not require a huggingface API token. The user is able to run this code to develop a deeper understanding of authors areas of expertise for the purpose of reviewing grant and funding proposals. Below is a flowchart explainng the steps the code takes to acheieve the final summary analysis. 
+
+![SummarizationFlowchart](https://github.com/hoarei/NASA_Internship_ADS_Summarization/assets/117953058/bc2acc34-42b8-43ac-aa80-82b12fbf7c40)
 
 **What the User Needs:** The user needs to access Expertise Finder v2.0 (https://github.com/MalloryHelfenbein/NASA_Internship) and follow the README files instructions. 
 
